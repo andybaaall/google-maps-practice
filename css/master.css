@@ -1,0 +1,12 @@
+.map-container {
+  height: 50vh;
+  width: 50vw;
+  background-color: grey;
+}
+
+#location {
+  width: 20vw;
+  line-height: 1.4rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}

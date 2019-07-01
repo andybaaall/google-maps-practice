@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>google maps warmup</title>
+
+    <link rel="stylesheet" href="css/master.css">
+  </head>
+  <body>
+
+    <div id="map" class="map-container"></div>
+    <div id="details" class=""></div>
+    <br>
+    <br>
+
+    <label for="location">move map to:</label>
+    <input id="location" type="text" name="location" value="">
+    <br>
+    <div id="placeInfo"></div>
+
+
+    <!-- we might leave the dummy version here if we weren't going to restrict the API key, but we should always do that anyway? -->
+    <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script> -->
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAinumtT1cwiYz33TxVQA4ypDZ_4PyIDe4&libraries=places"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
